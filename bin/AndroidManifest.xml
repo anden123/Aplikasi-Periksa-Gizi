@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplikasiperiksagizi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.aplikasiperiksagizi.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="UserNew"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="news"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="LogSharedPref"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="menuawal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="gizidaurhidup"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="Mainsql"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+      
+      <activity
+            android:name="SQLiteHelper"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+      
+
+        <activity android:name=".artikelgizi"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.artikelgizi" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".GiziAnakSekolah"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.GiziAnakSekolah" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".GiziBalita2"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.GiziBalita2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".GiziBalita1"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.GiziBalita1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".GiziBalita"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.GiziBalita" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".GiziLansia"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.GiziLansia" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".GiziLansia1"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.GiziLansia1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".GiziLansia2"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.GiziLansia2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".GiziBayi"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.GiziBayi" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".giziatas"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.giziatas" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+ 
+       
+     
+        <activity android:name=".GiziOrangDewasa"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.GiziOrangDewasa" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".GiziRemaja"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.GiziRemaja" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".help"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.help" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".kalkulatorgizi"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.kalkulatorgizi" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".kalkulatorgizi1"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.kalkulatorgizi1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".kalkulatorgizi2"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.kalkulatorgizi2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".kalkulatorgizi3"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.kalkulatorgizi3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".GizidanASI"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperiksagizi.GizidanASI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+       
+    </application>
+
+</manifest>

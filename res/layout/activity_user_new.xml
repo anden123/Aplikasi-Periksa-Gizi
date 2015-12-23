@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+     	android:background = "@drawable/bgutama"
+    android:layout_height="match_parent" >
+    
+    
+    <LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical" >
+
+<TextView
+android:id="@+id/txtnewuser"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:gravity="center_vertical"
+android:text ="New User"
+android:textSize="18sp" />
+<TextView
+android:id="@+id/txtEdit"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#AC9D93"
+android:text ="Edit Account"
+android:textSize="16sp" />
+<TextView
+android:id="@+id/txtUseredit"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text ="Change username" />
+<EditText
+android:id="@+id/useredit"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint ="Username"
+android:text="" />
+<TextView
+android:id="@+id/txtPassedit"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text ="Change password" />
+<EditText
+android:id="@+id/pwdedit"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint ="Password"
+android:inputType="textPassword"
+android:text="" />
+<Button
+android:id="@+id/btnSave"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:gravity="right"
+android:text ="Save" />
+</LinearLayout>
+
+</RelativeLayout>
